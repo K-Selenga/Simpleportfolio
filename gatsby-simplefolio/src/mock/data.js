@@ -2,64 +2,68 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Selenga KOC | Web Developer', // e.g: 'Name | Developer'
+  lang: 'en, tr', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Selenga KOC',
+  subtitle: 'Full-Stack Web Developer ',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile.jpeg',
+  paragraphOne:
+    'My name is Selenga KOC I am a 28 years old Full-Stack Developer based in Vancouver, BC. I describe myself as a passionate developer who loves coding, open source, and the web platform.',
+  paragraphTwo:
+    'Beside being a web designer/developer, I am a photography hobbyist, a travel/adventure lover. When I am not working I love hanging around with my camera and capture some good snaps. Landscape and nature photography is something I really find myself enjoying',
+  paragraphThree: 'Take a look into some of my works here.',
+  resume: 'https://drive.google.com/file/d/1MSM03QygN2S3a5P50YJsaI5JmZpaBp_F/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'tipsy.png',
+    title: 'Tipsy Web Bartender',
+    info: 'Capestone Project',
+    info2:
+      'Developed an app that helps people search cocktail recipes, create their own cocktail lists or find random or seasonal recipes.',
+    url: 'https://www.loom.com/share/476f0b455aaa44f49d222c4b66e51d10',
+    repo: 'https://github.com/K-Selenga/Tipsy', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'instock.png',
+    title: 'Instock Warehouse',
+    info2:
+      'Created a platform to check inventory and stocks, show details of each item in the list.',
+    info: 'Team-Project',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/K-Selenga/Instock', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'walmart4d.png',
+    title: 'Walmart 4-D Hackhaton',
+    info: 'Team-Project',
+    info2: 'Hackhaton project of Walmart',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/K-Selenga/Walmart-4D', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Feel free to contact me.',
+  btn: 'Lets Talk!',
+  email: 'koc.selenga@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +71,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://linkedin.com/in/selengakoc',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/K-Selenga',
     },
   ],
 };
