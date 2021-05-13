@@ -53,19 +53,19 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={repo}
                       >
-                        See Live
+                        Github Repo
                       </a>
 
-                      {repo && (
+                      {url && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={repo}
+                          href={url}
                         >
-                          Source Code
+                          Details
                         </a>
                       )}
                     </div>
@@ -81,7 +81,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href={repo}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
