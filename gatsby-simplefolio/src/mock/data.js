@@ -45,8 +45,8 @@ export const projectsData = [
     info2:
       'Created a platform to check inventory and stocks, show details of each item in the list.',
     info: 'Team-Project',
-    url: ''https://github.com/K-Selenga/Instock'',
-    repo: '' , // if no repo, the button will not show up
+    url: '',
+    repo: 'https://github.com/K-Selenga/Instock', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -54,8 +54,17 @@ export const projectsData = [
     title: 'Walmart 4-D Hackhaton',
     info: 'Team-Project',
     info2: 'Hackhaton project of Walmart',
-    repo: '',// if no repo, the button will not show up
-    url: 'https://github.com/K-Selenga/Walmart-4D', 
+    url: '',
+    repo: 'https://github.com/K-Selenga/Walmart-4D', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'brainflix.png',
+    title: 'Brainflix ',
+    info: 'Assingment',
+    info2: 'A video streaming platform',
+    url: '',
+    repo: 'https://github.com/K-Selenga/Brainflix', // if no repo, the button will not show up
   },
 ];
 
